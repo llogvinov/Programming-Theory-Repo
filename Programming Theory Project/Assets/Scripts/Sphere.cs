@@ -8,6 +8,7 @@ public class Sphere : Shape
 
     private void Start()
     {
+        ObjectName = "Sphere";
         _rigidbody = GetComponent<Rigidbody>();
     }
 
